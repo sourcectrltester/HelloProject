@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		mWebView = (WebView) findViewById(R.id.webview);
-		
+		//Create - git
 		//Create Simple HTML
 		mWebView.loadUrl("file:///android_asset/index.html");
 		mWebView.setWebViewClient(new WebViewClient());
