@@ -17,11 +17,10 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		mWebView = (WebView) findViewById(R.id.webview);
-		//Create - git
+		//Create - git version 2 (include something)
 		//Create Simple HTML
 		mWebView.loadUrl("file:///android_asset/index.html");
 		mWebView.setWebViewClient(new WebViewClient());
-		//eGit - Version 3 //
 		//mWebView.loadUrl("file:///Users/roywong/Documents/workspace/HelloWebView/assets/index.html");
 		
 		//mWebView.getSettings().setJavaScriptEnabled(true);
