@@ -21,6 +21,7 @@ public class MainActivity extends Activity {
 		//Create Simple HTML
 		mWebView.loadUrl("file:///android_asset/index.html");
 		mWebView.setWebViewClient(new WebViewClient());
+		//eGit - Version 3 //
 		//mWebView.loadUrl("file:///Users/roywong/Documents/workspace/HelloWebView/assets/index.html");
 		
 		//mWebView.getSettings().setJavaScriptEnabled(true);
